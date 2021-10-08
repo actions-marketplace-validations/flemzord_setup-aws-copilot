@@ -1,9 +1,9 @@
 # https://help.github.com/en/articles/metadata-syntax-for-github-actions
-name: 'Setup AWS Copilot'
+name: 'Setup AWS Copilot Cli'
 description: 'A GitHub Action for setting up and configuring the AWS Copilot command line interface'
 author: 'flemzord'
 runs:
-  using: 'node12'
+  using: node12
   main: 'dist/index.js'
 inputs:
   version:
