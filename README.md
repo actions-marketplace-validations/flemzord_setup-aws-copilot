@@ -14,7 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Setup AWS Copilot
-      uses: flemzord/setup-aws-copilot@v1
+      uses: flemzord/setup-aws-copilot@v1.3
 ```
 
 #### inputs
