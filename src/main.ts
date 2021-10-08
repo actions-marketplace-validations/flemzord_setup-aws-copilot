@@ -44,6 +44,7 @@ async function run() {
 
     await install(version, os.platform());
   } catch (error) {
+    // @ts-ignore
     setFailed(error.message);
   }
 }

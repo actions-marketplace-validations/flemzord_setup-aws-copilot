@@ -14,7 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Setup AWS Copilot
-      uses: softprops/setup-aws-copilot@v1
+      uses: flemzord/setup-aws-copilot@v1
 ```
 
 #### inputs
@@ -25,3 +25,4 @@ jobs:
 
 
 Doug Tangren (softprops) 2020.
+Maxence Maireaux (flemzord) 2021.
